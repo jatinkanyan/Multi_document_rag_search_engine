@@ -189,14 +189,14 @@ This ensures **strict document grounding** and prevents hallucinations.
 python -m venv venv
 source venv/bin/activate   # Windows: venv\Scripts\activate
 
-### 2️⃣ Install Dependencies
+2️⃣ Install Dependencies
 -pip install -r requirements.txt
 
-### 3️⃣ Configure .env
+3️⃣ Configure .env
 GROQ_API_KEY=your_groq_key
 TAVILY_API_KEY=your_tavily_key
 
-### 4️⃣ Run the App
+4️⃣ Run the App
 streamlit run app.py
 
 🏁 Final Outcome
