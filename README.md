@@ -64,14 +64,16 @@ Answer + Citations
 Streamlit UI
 
 🛠 Tech Stack (Strictly Followed)
-Component	Technology
-Language	Python
-LLM Orchestration	LangChain
-LLM Provider	Groq
-Vector Database	FAISS
-Embeddings	Sentence-Transformers
-Web Search	Tavily
-UI	Streamlit
+| Component         | Technology            |
+| ----------------- | --------------------- |
+| Language          | Python                |
+| LLM Orchestration | LangChain             |
+| LLM Provider      | Groq                  |
+| Vector Database   | FAISS                 |
+| Embeddings        | Sentence-Transformers |
+| Web Search        | Tavily                |
+| UI                | Streamlit             |
+
 📂 Project Structure
 GA02_Hybrid_RAG/
 │
@@ -169,10 +171,12 @@ Otherwise responds:
 This ensures strict document grounding and prevents hallucinations.
 
 🧪 Evaluation Scenarios
-Scenario	Expected Behavior
-Static knowledge query	Retrieved from documents
-Real-time factual query	Retrieved via Tavily
-Hybrid reasoning query	Combined document + web context
+| Scenario                | Expected Behavior               |
+| ----------------------- | ------------------------------- |
+| Static knowledge query  | Retrieved from documents        |
+| Real-time factual query | Retrieved via Tavily            |
+| Hybrid reasoning query  | Combined document + web context |
+t
 📊 Quality Assessment
 
 Strengths
